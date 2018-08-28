@@ -5,6 +5,20 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
+/* -------------- home arrow -------------- */
+
+nav{
+    position: absolute;
+    left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+
+/* -------------- header styles -------------- */
 
 h1{
     font-family: 'Bungee Shade', cursive;
@@ -24,6 +38,8 @@ h3{
     font-size: 1.5em;
 }
 
+/* -------------- the line below page header -------------- */
+
 #line{
     height: 2px;
     background-color: black;
@@ -31,6 +47,7 @@ h3{
     margin: auto;
 }
 
+/* -------------- space between ordered list items -------------- */
 ol li{
     margin-bottom: 5px;
     padding-left: 5px;
