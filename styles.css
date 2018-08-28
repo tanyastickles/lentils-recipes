@@ -1,0 +1,83 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+}
+
+h2,
+h3{
+    font-family: 'Neuton', serif;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+#line{
+    height: 2px;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+ol li{
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+/* centers the recipe list on the main page */
+#main-page{
+    width: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 550px){
+    main{
+        flex-direction: column;
+    }
+
+    body{
+        padding: 10px;
+    }
+
+    #ingredients,
+    #recipes{
+        flex-basis: 100%;
+    }
+
+    h2{
+        text-align: center;
+    }
+}
+
+/* -------------- wide viewports -------------- */
+@media screen and (min-width: 551px){
+
+    body{
+        padding: 20px;
+    }
+
+    #ingredients{
+        flex-basis: 35%;
+    }
+    
+    #recipe{
+        flex-basis: 65%;
+    }
+    
+    #ingredients, 
+    #recipe{
+        padding: 20px;
+    }
+}
